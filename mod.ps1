@@ -7,7 +7,7 @@
 
   [Parameter(Mandatory=$true)]
   [string] $value
-  )
+)
 
 $path = "./$name.$ext"
 
