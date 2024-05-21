@@ -1,17 +1,18 @@
 param(
-  [Parameter(Mandatory=$true)]
+  [Parameter(Mandatory = $true)]
   [string] $arg1,
 
-  [Parameter(Mandatory=$false)]
+  [Parameter(Mandatory = $false)]
   [string] $arg2,
 
-  [Parameter(Mandatory=$false)]
+  [Parameter(Mandatory = $false)]
   [string] $arg3
 )
 
 if ($arg1 -eq "c") {
   javac *.java
-} else {
+}
+else {
   if ($arg1 -eq "jar") {
     java -jar *.jar
   }

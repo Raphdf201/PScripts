@@ -1,1 +1,1 @@
-﻿cd test
+﻿Set-Location -Path .\test

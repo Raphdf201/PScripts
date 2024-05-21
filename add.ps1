@@ -1,10 +1,10 @@
 ﻿param(
-  [Parameter(Mandatory=$true)]
+  [Parameter(Mandatory = $true)]
   [float] $arg1,
 
-  [Parameter(Mandatory=$true)]
+  [Parameter(Mandatory = $true)]
   [float] $arg2
-  )
+)
 
-  $result = $arg1 + $arg2
-  $result
+$result = $arg1 + $arg2
+$result

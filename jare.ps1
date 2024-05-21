@@ -1,1 +1,1 @@
-java -jar *.jar
+java -jar jar.jar
