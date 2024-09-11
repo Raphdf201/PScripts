@@ -1,1 +1,7 @@
-Start-Process C:\Users\raphd\Documents\Code\PS
+function Get-ScriptDirectory {
+    Split-Path -Parent $PSCommandPath
+}
+
+$ScriptPath = Get-ScriptDirectory
+
+Start-Process $ScriptPath

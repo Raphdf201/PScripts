@@ -1,1 +1,0 @@
-﻿Start C:\Users\raphd\Desktop\PS7A.lnk
